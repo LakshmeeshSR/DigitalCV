@@ -96,7 +96,7 @@ def show_main_page():
         
         <div style='color: white; font-size: 20px; font-family: Arial; display: flex;'>
             <div style='margin-right: 10px;'>• 📊 Data Visualization:</div>
-            <div style='color: white; font-family: Arial;'>PowerBi, MS Excel</div>
+            <div style='color: white; font-family: Arial;'>PowerBI, MS Excel</div>
         </div>
 
         <div style='color: white; font-size: 20px; font-family: Arial; display: flex;'>
