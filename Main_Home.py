@@ -85,7 +85,7 @@ def show_main_page():
         st.write(f'<p style="color: white; font-size: 20px; font-family: Arial;">{line}</p>', unsafe_allow_html=True)
 
     st.write("#")
-    st.write("<h1 style='text-align: left; color: #763E3E; font-size: 26px; font-family:Century Gothic;'>Skills 🛠️</h1>", unsafe_allow_html=True)
+    st.write("<h1 style='text-align: left; color: #763E3E; font-size: 26px; font-family:Century Gothic;'>Skill set 🛠️</h1>", unsafe_allow_html=True)
 
     st.write(
         """
