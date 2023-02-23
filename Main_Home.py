@@ -91,7 +91,7 @@ def show_main_page():
         """
         <div style='color: white; font-size: 20px; font-family: Arial; display: flex;'>
             <div style='margin-right: 10px;'>• 👩‍💻 Programming:</div>
-            <div style='color: white; font-family: Arial;'>Python (Scikit-learn, Pandas, Matplotlib), Streamlit</div>
+            <div style='color: white; font-family: Arial;'>Python (Scikit-learn, Pandas, Matplotlib, Streamlit)</div>
         </div>
         
         <div style='color: white; font-size: 20px; font-family: Arial; display: flex;'>
