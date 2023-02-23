@@ -122,8 +122,8 @@ def run():
 
     st.write(
         "<div style='position:fixed; bottom: 35px; left:25%; z-index: 1;'>",
-        "<p style='font-size: 14px; color: black; font-style: italic'> *The data isn't real time </p>",
-        "<p style='font-size: 14px; color: black; font-style: italic;'> *Raw data courtesy - <a style='text-decoration: none; color: black;' href='https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data'>https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data</a> -</p>",
+        "<p style='font-size: 18px; color: black; font-style: italic'> *The data isn't real time </p>",
+        "<p style='font-size: 18px; color: black; font-style: italic;'> *Raw data courtesy - <a style='text-decoration: none; color: black;' href='https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data'>https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data</a> -</p>",
         "</div>",
         unsafe_allow_html=True,
     )
