@@ -3,6 +3,7 @@ import LinearReg
 import SMS_Spam_Prediction_proj
 import WhatsApp_app
 import IPL_Youtube
+import PowerBI
 import requests
 from io import BytesIO
 # st.set_option('browser.serverAddress', '127.0.0.1')
@@ -197,7 +198,7 @@ def show_main_page():
 def select_project():
     st.sidebar.title("My Projects")    
     # project01 = st.sidebar.radio("Home", ["Home"])
-    project = st.sidebar.selectbox('Select', ["Home","Linear Regression", "IPL Analysis using Youtube API" , "Logistic Regression","WhatsApp Chat analyzer"])
+    project = st.sidebar.selectbox('Select', ["Home","Linear Regression", "IPL Analysis using Youtube API" , "Logistic Regression","WhatsApp Chat analyzer","PowerBI"])
     return project
 
 
@@ -219,6 +220,8 @@ elif project == "Logistic Regression":
 elif project == "WhatsApp Chat analyzer":
     WhatsApp_app.run()
 
+elif project == "PowerBI":
+    PowerBI.run()
 
 
 else:
