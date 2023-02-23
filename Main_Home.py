@@ -195,7 +195,7 @@ def show_main_page():
 
 
 def select_project():
-    st.sidebar.title("My Project")    
+    st.sidebar.title("My Projects")    
     # project01 = st.sidebar.radio("Home", ["Home"])
     project = st.sidebar.selectbox('Select', ["Home","Linear Regression", "IPL Analysis using Youtube API" , "Logistic Regression","WhatsApp Chat analyzer"])
     return project
