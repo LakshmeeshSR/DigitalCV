@@ -65,12 +65,7 @@ def run():
     ChannelData.sort_values(by = 'Subscribers', ascending = False)
 
 
-#     # st.title('Who is IPL KIng on Youtube ?')
-#     st.markdown(
-#         '<h1 style="color: skyblue;">Who is IPL King on Youtube ?</h1>',
-#         unsafe_allow_html=True
-#     )
-#         heading = "Who is IPL King on Youtube ?"
+    heading = "Who is IPL King on Youtube ?"
 
     st.write(
         """
@@ -81,10 +76,17 @@ def run():
         unsafe_allow_html=True
     )
 
+    st.write("#")
+
+    # st.markdown(
+    #     '<h1 style="color: skyblue;">Who is IPL King on Youtube ?</h1>',
+    #     unsafe_allow_html=True
+    # )
+
     st.write('<p style="color: White; font-family: Helvetica; font-size: 24px;">The data was extracted using Youtube API in this project. The performance of all IPL teams is analysed below by capturing live data.</p>', unsafe_allow_html=True)
 
-
-
+# https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI9jvlYMnos3MQGBni0q9ZUdi6r-FUkv5i4Q&usqp=CAU
+# https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz7nkIarNRB4dcJKwBuCp-PYeNRwDIf1vCr2HNcjhaq8bRPblIAgHHh2CDsUC5rpmgw9E&usqp=CAU
     page_bg_img = f"""
     <style>
 
