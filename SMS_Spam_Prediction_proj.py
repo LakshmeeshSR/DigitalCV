@@ -33,7 +33,7 @@ def run():
     page_bg_img = f"""
     <style>
     [data-testid="stAppViewContainer"] > .main {{
-    background-image: url("https://pbs.twimg.com/media/E5IlF6SWQAEQ09k.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/344/502/426/anonymous-computer-hacker-legion-wallpaper-preview.jpg");
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat;
