@@ -45,12 +45,13 @@ def run():
 
 
 
+
     text = "Operations and Finance Dashboard using Power BI"
 
     st.write(
         """
-        <div style="position: relative; height: 50px; width: 100%;">
-            <h1 style="position: relative; top: -65px; left: 0%; color:#FF4B4B; font-size:31px; font-family: IMAGO BOLD">{}</h1>
+        <div style="position: relative; height: 40px; width: 100%;">
+            <h1 style="position: relative; top: -65px; left: 10%; color:#3DF6EB; font-size:26px; font-family: Algerian">{}</h1>
         </div>
         """.format(text),
         unsafe_allow_html=True
