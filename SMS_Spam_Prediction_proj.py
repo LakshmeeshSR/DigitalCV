@@ -18,14 +18,16 @@ def run():
 # ec8100
     text = "SMS Spam Detector"
 
+
     st.write(
         """
         <div style="position: relative; height: 50px; width: 100%;">
-            <h1 style="position: relative; top: -65px; left: 0%; color:#A2EDF4; font-size:60px; font-family: Arial Rounded MT Bold; font-style: BOLD">{}</h1>
+            <h1 style="position: relative; top: -65px; left: 13%; color:grey; font-size:60px; font-family: Forte; font-style: BOLD">{}</h1>
         </div>
         """.format(text),
         unsafe_allow_html=True
     )
+    
 # https://www.shutterstock.com/image-photo/sea-andes-mountains-over-clouds-260nw-1905247738.jpg
 
     page_bg_img = f"""
@@ -117,7 +119,7 @@ def run():
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
     #if input_sms != None:
-    st.markdown('<p style="color: skyblue; font-style: Bold; font-size:30px">Enter message</p>', unsafe_allow_html=True)
+    st.markdown('<p style="color: White; font-family: Berlin Sans FB Demi; font-size:30px">Enter message</p>', unsafe_allow_html=True)
     input_sms = st.text_area("")
     
 
