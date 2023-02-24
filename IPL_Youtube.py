@@ -65,9 +65,19 @@ def run():
     ChannelData.sort_values(by = 'Subscribers', ascending = False)
 
 
-    # st.title('Who is IPL KIng on Youtube ?')
-    st.markdown(
-        '<h1 style="color: skyblue;">Who is IPL King on Youtube ?</h1>',
+#     # st.title('Who is IPL KIng on Youtube ?')
+#     st.markdown(
+#         '<h1 style="color: skyblue;">Who is IPL King on Youtube ?</h1>',
+#         unsafe_allow_html=True
+#     )
+#         heading = "Who is IPL King on Youtube ?"
+
+    st.write(
+        """
+        <div style="position: relative; height: 50px; width: 100%;">
+            <h1 style="position: relative; top: -30px; left: 5%; color:orange; font-size:45px; font-family: Berlin Sans FB Demi">{}</h1>
+        </div>
+        """.format(heading),
         unsafe_allow_html=True
     )
 
@@ -79,7 +89,7 @@ def run():
     <style>
 
     [data-testid="stAppViewContainer"] > .main {{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz7nkIarNRB4dcJKwBuCp-PYeNRwDIf1vCr2HNcjhaq8bRPblIAgHHh2CDsUC5rpmgw9E&usqp=CAU");
+    background-image: url("https://i.pinimg.com/170x/0b/b0/a2/0bb0a21d29caa2227456dcfc325ebdff.jpg");
     background-size: cover;
 
     background-position: top left;
