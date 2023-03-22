@@ -1,4 +1,6 @@
 
+# cd /
+# cd Users/"Lakshmeesh S Reddy"/Desktop/Dinku/JOB/Whatsapp_Chat_Analyser
 def run():
              
     import streamlit as st
