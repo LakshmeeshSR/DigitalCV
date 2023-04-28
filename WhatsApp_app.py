@@ -1,5 +1,3 @@
-
-# cd Users/"Lakshmeesh S Reddy"/Desktop/Dinku/JOB/Whatsapp_Chat_Analyse
 def run():
              
     import streamlit as st
@@ -522,6 +520,7 @@ def run():
         st.pyplot(fig)
 
         
+
 
 
 
